@@ -1,0 +1,78 @@
+.form{
+  
+    height: 30rem;
+    width: auto;
+    padding: 2px;
+display: flex;
+/* justify-content: center; */
+flex-direction: column;
+align-items: center;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width:  22rem;
+    height: 5rem;
+    margin: 20px 0;
+}
+
+.inputField label{
+    margin:5px 0;
+    font-family: 'Inter', sans-serif;
+    color: #404040;
+
+}
+
+.inputField input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border:2px solid #2209303d;
+    background-color: transparent;
+    height: 5rem;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+    color: #BBB9BC;
+}
+
+button{
+    background-color: #220930;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+
+
+}
+
+.expDetails{
+
+    display: flex;
+}
+
+.expDetails .inputField{
+    width: auto;
+}
+
+.expDetails .inputField:nth-child(1)>div {
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+}
+
+.expDetails .inputField:nth-child(1)>div>input{
+    width: 5rem;
+    height: 2.9rem;
+    margin:0 5px;
+}
+
+.expDetails .inputField input{
+    width: 10rem;
+}

@@ -1,0 +1,75 @@
+.home{
+    display: flex;    
+    background-color: blue;
+    height: 100%;  
+
+}
+.left
+{
+    background:url(../assets/left.png);
+    height: 100%;
+    width: 25%;
+}
+
+.card1{
+    background: url(../assets/card-1.png);
+    width: 27rem;
+    height: 14rem;
+    position: absolute;
+    top: 6rem;
+    left:6rem;
+    border-radius: 10px;
+}
+
+.card1 .cardNumber{
+    position: absolute;
+    top: 8rem;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card1 .cardHolder,.card1 .expiry{
+    font-family: 'Inter', sans-serif;   
+    position: absolute;
+    top:11rem;
+    /* background-color: red; */
+    width: 50%;
+}
+
+.card1 .cardHolder{
+    left:1.5rem;
+}
+
+.card1 .expiry{
+    left:22rem;
+}
+
+.card2{
+    background: url(../assets/card-2.png);
+    width: 27rem;
+    height: 14rem;
+    position: absolute;
+    top:22rem;
+    left:10rem;
+    border-radius: 10px;
+}
+
+.card2 p{
+    position: absolute;
+    top: 6rem;
+    left: 23rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.right{
+    background-color: #eef3fc;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
